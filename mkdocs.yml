@@ -43,8 +43,7 @@ nav:
 extra_css:
   - stylesheets/extra.css
 
-extra:
-  social:
-    -icon: :simple/creativecommons
+copyright:  This work is licensed under a Creative Commons Attribution 4.0 International License. 
+copyright: Site author: Maria Sigridur Finnsdottir.
   
 
