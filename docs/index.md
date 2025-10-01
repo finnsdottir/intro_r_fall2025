@@ -24,4 +24,4 @@ I'd encourage you to follow along with the workshop in R, but if you get lost or
 
 !!!note ""
     Instructor: Maria Sigridur Finnsdottir, PhD. 
-    (./content/by-nc.png){width=200}
+    ![copyright](./content/by-nc.png){width=200}
