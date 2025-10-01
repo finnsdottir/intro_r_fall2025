@@ -43,3 +43,8 @@ nav:
 extra_css:
   - stylesheets/extra.css
 
+extra:
+  social:
+    -icon: ./content/by-nc.png
+     link: https://creativecommons.org/licenses/by-nc/4.0/
+
