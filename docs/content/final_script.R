@@ -1,3 +1,19 @@
+#Operators
+#Assignment operators
+day <- 3
+month = 10
+
+#Arithmetic operators
+4+2
+4/2
+
+#Comparison operators
+4!=3
+4<3
+
+#Logical operators
+c(TRUE,TRUE,FALSE) & c(TRUE,FALSE,FALSE)
+
 #Vectors
   #creating vectors
 chris_vector <- c('pratt','hemsworth')
@@ -15,22 +31,6 @@ chris_vector <-c("evans",chris_vector)
   #creating a mixed vector & testing coercion
 name_age_vector <- c("evans", 44, "pratt", 46)
 str(name_age_vector)
-
-#Operators
-  #Assignment operators
-day <- 3
-month = 10
-
-  #Arithmetic operators
-4+2
-4/2
-  
-  #Comparison operators
-4!=3
-4<3
-
-  #Logical operators
-c(TRUE,TRUE,FALSE) & c(TRUE,FALSE,FALSE)
 
 #Functions
 mean(chris_age_vector)
