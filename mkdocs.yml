@@ -43,8 +43,5 @@ nav:
 extra_css:
   - stylesheets/extra.css
 
-extra:
-  social:
-    -icon: ./content/by-nc.png
-     link: https://creativecommons.org/licenses/by-nc/4.0/
+copyright: This work is licensed under a Creative Commons Attribution 4.0 International License.
 
