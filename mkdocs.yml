@@ -27,6 +27,9 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Introduction: index.md
@@ -42,7 +45,5 @@ nav:
 
 extra_css:
   - stylesheets/extra.css
-
-copyright: This work is licensed under a Creative Commons Attribution 4.0 International License.
   
 
