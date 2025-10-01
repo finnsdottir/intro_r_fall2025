@@ -20,6 +20,7 @@ For the project portion of the workshop, we’ll be using the cleaned up messy m
 I'd encourage you to follow along with the workshop in R, but if you get lost or want to check something, you can download [my script](./content/final_script.R).
 
 !!!note ""
+    
     Site author: [Maria Sigridur Finnsdottir, PhD]("mariasfinnsdottir.ca"), the Humanities and Social Sciences Specialist on the Digital Research Services team at the University of Alberta.
     
     This workshop was developed by drawing on the UBC Library course [Intro to R and RStudio (beginner)](https://ubc-library-rc.github.io/IntroR/) and the Data Carpentries course [R for Social Scientists](https://datacarpentry.github.io/r-socialsci/index.html).
