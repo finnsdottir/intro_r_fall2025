@@ -22,9 +22,6 @@ I'd encourage you to follow along with the workshop in R, but if you get lost or
 !!!note ""
     This workshop was developed by drawing on the UBC Library course [Intro to R and RStudio (beginner)](https://ubc-library-rc.github.io/IntroR/) and the Data Carpentries course [R for Social Scientists](https://datacarpentry.github.io/r-socialsci/index.html).
 
-Instructor: Maria Sigridur Finnsdottir, PhD. 
-
-<figure markdown="span">
-    ![image of console](./content/by-nc(1).png){width=200}
-    <figcaption></figcaption>
-</figure>
+!!!note ""
+    Instructor: Maria Sigridur Finnsdottir, PhD. 
+    (./content/by-nc.png){width=200}
