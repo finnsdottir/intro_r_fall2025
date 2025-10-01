@@ -20,5 +20,8 @@ For the project portion of the workshop, we’ll be using the cleaned up messy m
 I'd encourage you to follow along with the workshop in R, but if you get lost or want to check something, you can download [my script](./content/final_script.R).
 
 !!!note ""
-    This workshop was developed by drawing on the UBC Library course [Intro to R and RStudio (beginner)](https://ubc-library-rc.github.io/IntroR/) and the Data Carpentries course [R for Social Scientists](https://datacarpentry.github.io/r-socialsci/index.html).
+    Site author: Maria Sigridur Finnsdottir.
+    
+    This workshop was developed by drawing on the UBC Library course [Intro to R and RStudio (beginner)](https://ubc-library-rc.github.io/IntroR/) and the Data     Carpentries course [R for Social Scientists](https://datacarpentry.github.io/r-socialsci/index.html).
 
+    This work is licensed under a :fontawesome-brands-creative-commons::fontawesome-brands-creative-commons-nc::fontawesome-brands-creative-commons-by:             Creative Commons Non-Commerical Attribution 4.0 International License.
