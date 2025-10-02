@@ -25,7 +25,7 @@ month = 10
     > 4/2
     [1] 2
     ```
-- Comparison operators. The operators `<`, `>`, and `==` return a logical values when used to compare two things. Try running the following:
+- Comparison operators. The operators `<`, `>`, and `==` return a logical value when used to compare two things. Try running the following:
 ```R
 4!=3
 4<3
@@ -69,7 +69,7 @@ Data frames are a very common type of data structure used in R. A data frame is 
 
 ## Vectors
 
-Vectors are another important type of data structure in R. A vector is a basic data structure that represents a sequence of values of the same data type, whether numbers or letters. 
+Vectors are another important type of data structure in R. A vector is a basic, one-dimensional data structure that represents a sequence of values of the same data type, whether numbers or letters. 
 
 Creating vectors is straightforward: you just use the assignment operator and the **c()** function, which combines values. Try running the following code to make some vectors describing the Hollywood Chris's:
 ```R
@@ -81,7 +81,7 @@ Now that you've created these two vectors, you should see them in your environme
 !!!info "Note"
     Be sure to include quotation marks around the text data you're combining into a vector. If you do not have them, R will assume that you are referring to objects, not data values.
 
-You can call functions on vectors. For example, you can inspect the length, structure, and type of vectors. Run these three functions. Your output will appear in the console.
+You can call functions on vectors. For example, you can inspect the length, structure, and type of vectors. Run these three functions. Your output will appear in the console - did you get what you expected to see?
 ```R
 length(chris_age_vector)
 str(chris_age_vector)
@@ -97,7 +97,7 @@ typeof(chris_vector)
     [1] "character"
     ```
 
-It is also fairly straightforward to add elements to the beggining or end of your vector. Run the following code in your source editor or console.
+It is also fairly straightforward to add elements to the beggining or end of your vector. Run the following code in your source editor or console:
 ```R
 chris_vector <-c(chris_vector, "pine")
 chris_vector <-c("evans",chris_vector)
@@ -119,13 +119,11 @@ What happens to the data in our vector? Call `str(name_age_vector)`. How has R c
     
     For example: If a vector contains both logical and integer values, all logical values will be coerced to integer (e.g., TRUE becomes 1, FALSE becomes 0). Or, if a vector contains numeric and character values, all numeric values will be coerced to character (as happened in our example).
 
-
-
 ## Functions
 
 A function is a 'canned script' that automates a block of code that performs a specifc task and can be easily called and executed by the user. Functions are an essential component of programming in R. 
 
-When R is installed, it comes with the default package `base` which contains a number of built-in functions. These include:
+When R is installed, it comes with the default package `base` which contains a number of useful built-in functions. These include:
 
 - `mean()` calculates the mean of a vector of numbers
 - `sd()` calculates the standard deviation of a vector of numbers
@@ -140,13 +138,11 @@ Try calculating the average age of the Hollywood Chris's using some of R's built
     [1] 44.25
     ```
 You can also define your own functions in R using the function `function`, like so: 
-
 ```R
 my_function <- function (arguments){
     R code to be excuted
     }
 ```
-
 ## Packages
 
 Different packages in R will come with their own built-in functions. Packages are collections of data, functions, and documentation. Packages are how we expand R beyond the base package. 
@@ -175,7 +171,7 @@ Alternatively, you can install a package by clicking the **Install** button on t
 ## Missing data
 As a progamming language made for analysing datasets, R includes ways of dealing with missing data. Missing data is represented as `NA` in R. When doing operations on numbers in R, most functions will return `NA` if there are missing values in your data. 
 
-One way to sidestep this problem is to indlude the argument `na.rm=TRUE` in your operation. This tells R to calculate the result while ignoring missing values. 
+One way to sidestep this problem is to include the argument `na.rm=TRUE` in your operation. This tells R to calculate the result while ignoring missing values. 
 
 To test this out, let's start by adding a missing value to our `chris_age_vector` and trying to calculate the mean. 
 ```R
