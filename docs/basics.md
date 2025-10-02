@@ -139,6 +139,13 @@ Try calculating the average age of the Hollywood Chris's using some of R's built
     > mean(chris_age_vector)
     [1] 44.25
     ```
+You can also define your own functions in R using the function `function`, like so: 
+
+```R
+my_function <- function (arguments){
+    R code to be excuted
+    }
+```
 
 ## Packages
 
