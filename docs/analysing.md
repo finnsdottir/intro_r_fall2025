@@ -61,7 +61,7 @@ Running that command should print the following to your console:
     <figcaption></figcaption>
 </figure>
 
-In the above code, we use the pipe to send the interviews dataset first through filter() to keep rows where the primary genre is "Sci-Fi" then through select() to keep only the columns "movie_title", "director_name", and "director_id. Since %>% takes the object on its left and passes it as the first argument to the function on its right, we don’t need to explicitly include the dataframe as an argument to the filter() and select() functions any more.
+In the above code, we use the pipe to send the movies dataset first through `filter()` to keep rows where the primary genre is "Sci-Fi" then through `select()` to keep only the columns "movie_title", "director_name", and "director_id". Since `%>%` takes the object on its left and passes it as the first argument to the function on its right, we don’t need to explicitly include the dataframe as an argument to the `filter()` and `select()` functions any more.
 
 The dplyr functions by themselves are somewhat simple, but by combining them into linear workflows with the pipe, we can accomplish more complex data wrangling operations.
 
@@ -109,7 +109,9 @@ unmessy_movies %>%
 Many data analysis tasks can be approached using the split-apply-combine paradigm: split the data into groups, apply some analysis to each group, and then combine the results. `dplyr` makes this very easy through the use of the `group_by()` function.
 
 ### The summarize() function
-`group_by()` is often used together with summarize(), which collapses each group into a single-row summary of that group. `group_by()` takes as arguments the column names that contain the categorical variables for which you want to calculate the summary statistics. Always end your `group_by()` operations with the `ungroup()` function. So, if we wanted to calculate the average rating per primary genre, we could do the following:
+`group_by()` is often used together with summarize(), which collapses each group into a single-row summary of that group. 
+
+`group_by()` takes as arguments the column names that contain the categorical variables for which you want to calculate the summary statistics. Always end your `group_by()` operations with the `ungroup()` function. So, if we wanted to calculate the average rating per primary genre, we could do the following:
 ```R
 unmessy_movies %>%
     group_by(primary_genre) %>%
