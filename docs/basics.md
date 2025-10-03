@@ -1,6 +1,6 @@
 # Basic Syntax & Concepts
 
-Before we start working with our unmessy movies dataset,let's go over some of the basic concepts and syntax in R. 
+Before we start working with our unmessy movies dataset,let's go over some of the basic concepts and syntax in R. One important thing to note is that all data structures in R are referred to as 'objects.' This means that data frames, vectors, and variables are all different kinds of objects in R. 
 
 ## Operators
 Operators are special symbols or keywords used to perform operations on one or more values. Common operators include:
