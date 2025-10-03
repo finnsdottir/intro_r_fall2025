@@ -47,7 +47,7 @@ Pipes are a way to do more complicated operations in R, such as selecting and fi
 
 There are two Pipes in R: the magrittr pipe (installed automatically with `dplyr`) and the native pipe. In this workshop, we will be using the margrittr pipe. Both the pipes are, by and large, function similarly with a few differences (For more information, check [the tidyverse site](https://www.tidyverse.org/blog/2023/04/base-vs-magrittr-pipe/)). The choice of which pipe to be used can be changed in the Global settings in R studio.
 
-Pipes are represented by `%>%` in R. Rather than type it out every time, you can use the following keyboard shortcut: ++ctrl+shift++M++ (on PC) or ++cmd+shift++M++ (on mac). 
+Pipes are represented by `%>%` in R. Rather than type it out every time, you can use the following keyboard shortcut: ++ctrl+shift+m++ (on PC) or ++cmd+shift+m++ (on mac). 
 
 Let's start by using pipes to view information about the director for every sci-fi movie. To do this, we want to filter by genre, and then select for director and director ID.
 ```R
