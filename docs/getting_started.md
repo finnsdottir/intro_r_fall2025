@@ -45,10 +45,11 @@ There are two ways to import data. The simplest way is to navigate to the **Impo
 
 Alternatively, you can run code to import the data. Run the code below, after updating the filepath with one that locates the data on your computer.
 ```R
-#I use a macbook, so to run this on PC you will need to update the filepath to begin with a "C:" 
-
 unmessy_movies <- read.csv("~/Downloads/unmessy_movies.csv")
 ```
+!!!note "Important!"
+    I use a macbook, so the filepaths here are formatted for mac. If you are using Windows, you will need to update the filepaths as appropriate. In Windows, filepaths generally start with "C:/" 
+
 Now that our data is loaded in R, we will want to save it. To do so, run the following line of code: 
 ```R
 write.csv(unmessy_movies,"./data/original_unmessy_movies.csv")
