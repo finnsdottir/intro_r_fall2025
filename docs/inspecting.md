@@ -58,7 +58,7 @@ unmessy_movies[2,-1]
     ```R
     movies_first100 <- unmessy_movies[1:100, ]
     ```
-Before we move, let's practice saving data by saving our data frame "movies_first100" to the data outputs folder. You may need to modify the file path in the function if you're using a PC.  
+Before we move on, let's practice saving data by saving our data frame "movies_first100" to the data outputs folder. You may need to modify the file path in the function if you're using a PC.  
 ```R
 write.csv(movies_first100, "./data_output/movies_first100.csv")
 ```
